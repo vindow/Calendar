@@ -1,0 +1,32 @@
+.planner {
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.form {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+}
+
+input {
+    margin-left: 1em;
+}
+
+textarea{
+    width: 99%;
+    height: 150px;
+    resize: none;
+}

@@ -1,0 +1,11 @@
+.month {
+    display:flex;
+}
+.table {
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid black;
+}
+th {
+    text-align: left;
+}

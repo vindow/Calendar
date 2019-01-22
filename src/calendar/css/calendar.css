@@ -1,0 +1,14 @@
+.selectorBar {
+    display: flex;
+    justify-content: space-evenly;
+}
+.yearSelector {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: space-between;
+}
+.monthSelector {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: space-between;
+}

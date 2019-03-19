@@ -1,8 +1,8 @@
 {
   "name": "my-app",
-  "homepage": "https://vindow.github.io/calendar",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://vindow.github.io/Calendar/",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

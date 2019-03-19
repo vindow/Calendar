@@ -54,7 +54,7 @@ export class Planner extends React.Component {
             return;
         }
         const plansToKeep = plans.filter(plan => {
-            return (plan.description != planToRemove.description || plan.time != planToRemove.time || 
+            return (plan.description !== planToRemove.description || plan.time !== planToRemove.time || 
                 !(plan.year === this.props.year && plan.month === this.props.month && plan.day === this.props.day));
         });
         localStorage.setItem("react.calendar.plans", JSON.stringify(plansToKeep));
